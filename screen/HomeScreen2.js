@@ -111,7 +111,7 @@ class HomeScreen extends React.Component {
       }
       async test_connection(){
 
-        //let domain ="http://www.elisanet.fi/~eq7405266/Munreseptit";
+        
         let domain = "http://192.168.10.44/munreseptit";
         //let domain = global.domain;
         let url = domain+'/version.json';
